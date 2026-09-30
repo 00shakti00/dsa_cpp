@@ -300,7 +300,20 @@ void pattern17(int n){
 
 };    
 
+void pattern18(int n){
+    for(int i = 1; i <= n; i++){
+        char ch = 'A' + n - i;
+        for(int j = 1; j <=i; j++){
+            cout<< ch;
+            ch=1;
+     
+        }
+        cout<<endl;
+    }
 
+
+
+};
 
 
 int main(){
@@ -313,7 +326,7 @@ cin >> t;
 for( int i = 0; i < t; i++){
     int n;
     cin >> n;
-    pattern17(n);
+    pattern18(n);
 }
 
 
